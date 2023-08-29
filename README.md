@@ -11,3 +11,9 @@ In this project, we implemented some searching algorithms to movies on based on 
 
 3. Keyword Search using BM25:
    In information retrieval, BM25 (Best Matching 25) has emerged as a widely used ranking function. This algorithm tackles the challenge of relevance in keyword-based searches. BM25's approach centers on two crucial factors: keyword frequency and document length. The Movie Recommendation App harnesses the BM25 algorithm to enhance keyword-based movie searches. When a user inputs a query, BM25 evaluates the frequency of query terms within movie descriptions and adjusts for document length. This process results in a relevance score that highlights the movies with the closest alignment to the user's query. The BM25-powered keyword search mechanism ensures that the app identifies movies whose descriptions contain significant matches to the user's input, facilitating accurate and tailored recommendations.
+
+## Acknowledgements
+
+ - Sentence-Transformer : (https://pypi.org/project/sentence-transformers/) The Sentence Transformer library for encoding movie data into vectors.
+ - Transformers : (https://pypi.org/project/transformers/2.1.0/) The Transformer library for using trained models.
+ - rank-bm25 : (https://pypi.org/project/rank-bm25/) For tokenize and performing Search.
